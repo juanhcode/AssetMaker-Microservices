@@ -16,6 +16,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>msvc-usuarios</module>
+        <module>msvc-auth</module>
     </modules>
 
     <properties>
