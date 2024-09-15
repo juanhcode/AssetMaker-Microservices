@@ -43,4 +43,13 @@ public class UserServiceImpl implements UserService{
         return userRepository.findByEmail(email);
     }
 
+    @Override
+    public User getUserByEmailAndPassword(String email, String password) {
+        User user = userRepository.findByEmail(email);
+        if (user == null || !encoder.matches(password, user.getPassword())) {
+            throw new ResourceNotFoundException("Usuario o contraseña incorrectos");
+        }
+        return user;
+    }
+
 }

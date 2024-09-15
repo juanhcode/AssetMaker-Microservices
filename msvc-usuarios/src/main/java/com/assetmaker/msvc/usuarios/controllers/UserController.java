@@ -52,4 +52,17 @@ public class UserController {
         return ResponseEntity.created(location).body(user);
 
     }
+
+    @GetMapping("/validate/{email}/{password}")
+    public ResponseEntity<?> getUserByEmailAndPassword(@PathVariable String email, @PathVariable String password) {
+        User user = userService.getUserByEmailAndPassword(email, password);
+        return ResponseEntity.ok(user);
+    }
+
+    @GetMapping("/user/{email}")
+    public ResponseEntity<?> getUserByEmail(@PathVariable String email) {
+        User user = userService.getUserByEmail(email);
+        return ResponseEntity.ok(user);
+    }
+
 }
