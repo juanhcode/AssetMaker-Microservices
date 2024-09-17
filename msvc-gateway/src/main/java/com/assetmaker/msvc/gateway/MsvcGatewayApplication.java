@@ -1,12 +1,13 @@
-package com.assetmaker.msvc.auth;
+package com.assetmaker.msvc.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 @SpringBootApplication
-public class MsvcAuthApplication {
+public class MsvcGatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MsvcAuthApplication.class, args);
+		SpringApplication.run(MsvcGatewayApplication.class, args);
 	}
 
 }
