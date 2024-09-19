@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="Servicio crear usuario completado">
-      <change afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/assetmaker/msvc/usuarios/persistance/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/assetmaker/msvc/usuarios/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/assetmaker/msvc/usuarios/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/assetmaker/msvc/usuarios/persistance/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/assetmaker/msvc/usuarios/persistance/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/assetmaker/msvc/usuarios/persistance/respositories/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/assetmaker/msvc/usuarios/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/assetmaker/msvc/usuarios/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/assetmaker/msvc/usuarios/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/com/assetmaker/msvc/usuarios/services/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +44,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.msvc-auth [clean].executor": "Run",
+    "Maven.msvc-auth [compile].executor": "Run",
+    "Maven.msvc-auth [test].executor": "Run",
+    "Maven.msvc-auth [validate].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -57,7 +57,7 @@
     "Spring Boot.MsvcAuthApplication.executor": "Run",
     "Spring Boot.MsvcGatewayApplication.executor": "Run",
     "Spring Boot.MsvcUsuariosApplication.executor": "Run",
-    "git-widget-placeholder": "Rebasing dev-scf",
+    "git-widget-placeholder": "dev-scf",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,17 +79,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MsvcUsuariosApplication">
-    <configuration name="MsvcAuthApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="msvc-auth" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.assetmaker.msvc.auth.MsvcAuthApplication" />
+  <component name="RunManager" selected="Spring Boot.MsvcAuthApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="msvc-gateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="msvc-gateway" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MsvcAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="msvc-auth" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.assetmaker.msvc.auth.msvc_auth.MsvcAuthApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.assetmaker.msvc.auth.MsvcAuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,7 +117,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.MsvcAuthApplication (1)" />
       <item itemvalue="Spring Boot.MsvcUsuariosApplication" />
       <item itemvalue="Spring Boot.MsvcAuthApplication" />
       <item itemvalue="Spring Boot.MsvcGatewayApplication" />
