@@ -118,4 +118,7 @@ public class UserController {
             throw new ResourceNotFoundException("El usuario con id: " + id + " no fue encontrado");
         }
     }
+        User user = userService.getUserByEmail(email);
+        return ResponseEntity.ok(user);
+    }
 }

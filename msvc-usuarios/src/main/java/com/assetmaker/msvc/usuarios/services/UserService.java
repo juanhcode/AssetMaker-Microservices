@@ -15,3 +15,4 @@ public interface UserService {
     public Optional<User> getUserByEmail(String email);
     public Optional<User> getUserById(Integer id);
 }
+
