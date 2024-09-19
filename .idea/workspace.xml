@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="fiz code an service" />
+    <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -30,142 +30,36 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2lV5N09yduUuXESHwiAnLhNM4CM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.AuthServiceTest.authenticate_UserExistsAndPasswordIsValid_ReturnsUserDetails.executor": "Run",
-    "JUnit.AuthServiceTest.executor": "Run",
-    "JUnit.CustomUserDetailsServiceTests.executor": "Run",
-    "JUnit.CustomUserDetailsServiceTests.loadUserByUsername_ReturnsUserDetails_WhenUserIsValid.executor": "Run",
-    "JUnit.CustomUserDetailsServiceTests.loadUserByUsername_ThrowsException_WhenUserNotFound.executor": "Run",
-    "JUnit.CustomUserDetailsServiceTests.testLoadUserByUsername.executor": "Run",
-    "JUnit.CustomUserDetailsServiceTests.testLogin_WithValidCredentials.executor": "Run",
-    "JUnit.MsvcAuthApplicationTests.contextLoads.executor": "Run",
-    "JUnit.MsvcAuthApplicationTests.loginTest.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.MsvcAuthApplication.executor": "Run",
-    "Spring Boot.MsvcGatewayApplication.executor": "Run",
     "Spring Boot.MsvcUsuariosApplication.executor": "Run",
-    "git-widget-placeholder": "Rebasing dev-scf",
+    "git-widget-placeholder": "dev-hoyos",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/juanhoyos/proyectos/assetmaker/src/main/java/org/example/Main.java",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="MicronautRunConfigurationType" />
-        <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.AuthServiceTest">
-    <configuration name="AuthServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="msvc-auth" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.assetmaker.msvc.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.assetmaker.msvc.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.assetmaker.msvc.auth.AuthServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthServiceTest.authenticate_UserExistsAndPasswordIsValid_ReturnsUserDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="msvc-auth" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.assetmaker.msvc.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.assetmaker.msvc.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.assetmaker.msvc.auth.AuthServiceTest" />
-      <option name="METHOD_NAME" value="authenticate_UserExistsAndPasswordIsValid_ReturnsUserDetails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomUserDetailsServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="msvc-auth" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.assetmaker.msvc.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.assetmaker.msvc.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.assetmaker.msvc.auth.CustomUserDetailsServiceTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomUserDetailsServiceTests.testLoadUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="msvc-auth" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.assetmaker.msvc.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.assetmaker.msvc.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.assetmaker.msvc.auth.CustomUserDetailsServiceTests" />
-      <option name="METHOD_NAME" value="testLoadUserByUsername" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomUserDetailsServiceTests.testLogin_WithValidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="msvc-auth" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.assetmaker.msvc.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.assetmaker.msvc.auth" />
-      <option name="MAIN_CLASS_NAME" value="com.assetmaker.msvc.auth.CustomUserDetailsServiceTests" />
-      <option name="METHOD_NAME" value="testLogin_WithValidCredentials" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.MsvcUsuariosApplication">
     <configuration name="MsvcAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="msvc-auth" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.assetmaker.msvc.auth.MsvcAuthApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MsvcGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="msvc-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.assetmaker.msvc.gateway.MsvcGatewayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.assetmaker.msvc.auth.msvc_auth.MsvcAuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,25 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.AuthServiceTest" />
-      <item itemvalue="JUnit.AuthServiceTest.authenticate_UserExistsAndPasswordIsValid_ReturnsUserDetails" />
-      <item itemvalue="JUnit.CustomUserDetailsServiceTests" />
-      <item itemvalue="JUnit.CustomUserDetailsServiceTests.testLoadUserByUsername" />
-      <item itemvalue="JUnit.CustomUserDetailsServiceTests.testLogin_WithValidCredentials" />
-      <item itemvalue="Spring Boot.MsvcUsuariosApplication" />
-      <item itemvalue="Spring Boot.MsvcAuthApplication" />
-      <item itemvalue="Spring Boot.MsvcGatewayApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.AuthServiceTest" />
-        <item itemvalue="JUnit.AuthServiceTest.authenticate_UserExistsAndPasswordIsValid_ReturnsUserDetails" />
-        <item itemvalue="JUnit.CustomUserDetailsServiceTests" />
-        <item itemvalue="JUnit.CustomUserDetailsServiceTests.testLogin_WithValidCredentials" />
-        <item itemvalue="JUnit.CustomUserDetailsServiceTests.testLoadUserByUsername" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -215,19 +90,12 @@
       <updated>1725252359656</updated>
       <workItem from="1725252360656" duration="1557000" />
       <workItem from="1725501729520" duration="37000" />
-      <workItem from="1726014791101" duration="17540000" />
-      <workItem from="1726068222089" duration="8865000" />
-      <workItem from="1726338035427" duration="20083000" />
+      <workItem from="1725831894171" duration="9316000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit config" />
-    <MESSAGE value="fiz code an service" />
-    <option name="LAST_COMMIT_MESSAGE" value="fiz code an service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
