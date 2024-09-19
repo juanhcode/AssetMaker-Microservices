@@ -50,6 +50,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.msvc-auth [clean].executor": "Run",
+    "Maven.msvc-auth [compile].executor": "Run",
+    "Maven.msvc-auth [test].executor": "Run",
+    "Maven.msvc-auth [validate].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -68,6 +72,29 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MsvcAuthApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="msvc-gateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="msvc-gateway" />
+      <option name="filePath" />
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -81,6 +108,7 @@
     </configuration>
     <configuration name="MsvcAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="msvc-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.assetmaker.msvc.auth.MsvcAuthApplication" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.assetmaker.msvc.auth.msvc_auth.MsvcAuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,7 +131,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.MsvcAuthApplication (1)" />
       <item itemvalue="Spring Boot.MsvcUsuariosApplication" />
       <item itemvalue="Spring Boot.MsvcAuthApplication" />
       <item itemvalue="Spring Boot.MsvcGatewayApplication" />
@@ -127,6 +154,7 @@
       <workItem from="1725252360656" duration="1557000" />
       <workItem from="1725501729520" duration="37000" />
       <workItem from="1725831894171" duration="9316000" />
+      <workItem from="1726691192139" duration="650000" />
     </task>
     <servers />
   </component>
