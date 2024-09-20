@@ -62,6 +62,7 @@ public class UserController {
         return ResponseEntity.created(location).body(user);
 
     }
+
     @GetMapping("/validate/{email}/{password}")
     public ResponseEntity<?> getUserByEmailAndPassword(@PathVariable String email, @PathVariable String password) {
         User user = userService.getUserByEmailAndPassword(email, password);
@@ -71,11 +72,10 @@ public class UserController {
     @GetMapping("/user/{email}")
     public ResponseEntity<?> getUserByEmail(@PathVariable String email) {
         Optional<User> optionalUser = userService.getUserByEmail(email);
-        if(optionalUser.isPresent()){
-         User user = optionalUser.get();
+        if (optionalUser.isPresent()) {
+            User user = optionalUser.get();
             return ResponseEntity.ok(user);
-        }
-        else{
+        } else {
             throw new ResourceNotFoundException("El usuario con email: " + email + " no fue encontrado");
         }
     }
@@ -83,7 +83,7 @@ public class UserController {
     @PatchMapping("/{id}")
     public ResponseEntity<?> updateUser(@PathVariable Integer id, @Valid @RequestBody Map<String, Object> updates, BindingResult result) {
         Optional<User> userOptional = userService.getUserById(id);
-        if(result.hasErrors()){
+        if (result.hasErrors()) {
             throw new BadRequestException("Revise los campos del usuario: " + updates);
         }
         for (Map.Entry<String, Object> entry : updates.entrySet()) {
@@ -117,8 +117,5 @@ public class UserController {
         } else {
             throw new ResourceNotFoundException("El usuario con id: " + id + " no fue encontrado");
         }
-    }
-        User user = userService.getUserByEmail(email);
-        return ResponseEntity.ok(user);
     }
 }
