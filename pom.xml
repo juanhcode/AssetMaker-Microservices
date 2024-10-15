@@ -17,6 +17,7 @@
     <modules>
         <module>msvc-usuarios</module>
         <module>msvc-auth</module>
+        <module>msvc-gateway</module>
     </modules>
 
     <properties>
