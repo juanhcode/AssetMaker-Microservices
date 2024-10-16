@@ -3,7 +3,6 @@ package com.assetmaker.msvc.usuarios.services;
 import com.assetmaker.msvc.usuarios.exceptions.ResourceNotFoundException;
 import com.assetmaker.msvc.usuarios.persistance.entities.User;
 import com.assetmaker.msvc.usuarios.persistance.repositories.UserRepository;
-import com.sun.jdi.request.InvalidRequestStateException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

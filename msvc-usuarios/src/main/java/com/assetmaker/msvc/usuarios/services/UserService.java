@@ -7,12 +7,12 @@ import java.util.Map;
 import java.util.Optional;
 
 public interface UserService {
-    public List<User> getUsers();
-    public void saveOrUpdateUser(User user);
-    public User getUserByEmailAndPassword(String email, String password);
+    List<User> getUsers();
+    void saveOrUpdateUser(User user);
+    User getUserByEmailAndPassword(String email, String password);
     void updateUser(Integer id, Map<String, Object> updates);
     void deleteUserById(Integer id);
-    public Optional<User> getUserByEmail(String email);
-    public Optional<User> getUserById(Integer id);
+    Optional<User> getUserByEmail(String email);
+    Optional<User> getUserById(Integer id);
 }
 
