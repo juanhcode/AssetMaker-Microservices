@@ -55,6 +55,7 @@ public class AssetController {
         if (assetOptional.isEmpty()) {
             throw new ResourceNotFoundException("El activo con id: " + id + " no fue encontrado");
         }
+        asset.setId(id);
         assetService.saveOrUpdateAsset(asset);
         return ResponseEntity.ok(asset);
     }

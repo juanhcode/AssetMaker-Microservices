@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY ./target/msvc-usuarios-0.0.1-SNAPSHOT.jar .
 
-EXPOSE 8081
+EXPOSE 9001
 
 ENTRYPOINT ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]

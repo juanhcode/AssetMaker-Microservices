@@ -7,13 +7,21 @@ spring:
       mvc:
         routes:
           - id: user-service
-            uri: http://localhost:8081
+            uri: http://localhost:9001
             predicates:
               - Path=/users/**
           - id: auth-service
             uri: http://localhost:9000
             predicates:
               - Path=/rest/auth/**
+          - id: asset-service
+            uri: http://localhost:9003
+            predicates:
+              - Path=/assets/**
+          - id: portfolio-service
+            uri: http://localhost:9002
+            predicates:
+              - Path=/portfolios/**
 logging:
   level:
     org.springframework.cloud.gateway: DEBUG

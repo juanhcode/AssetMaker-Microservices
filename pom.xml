@@ -18,6 +18,7 @@
         <module>msvc-auth</module>
         <module>msvc-gateway</module>
         <module>msvc-activos</module>
+        <module>msvc-portafolios</module>
     </modules>
 
     <properties>
