@@ -5,6 +5,7 @@ import com.assetmaker.msvc.portafolios.exceptions.ResourceNotFoundException;
 import com.assetmaker.msvc.portafolios.persistance.entities.Portfolio;
 import com.assetmaker.msvc.portafolios.persistance.entities.User;
 import com.assetmaker.msvc.portafolios.services.PortfolioService;
+import feign.FeignException;
 import org.apache.coyote.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -35,11 +36,11 @@ public class PortfolioController {
             Optional<User> userOptional = userClientRest.getUserById(idUser);
             List<Portfolio> portfolios = portfolioService.getPortfoliosByUserId(userOptional.get().getId());
             return ResponseEntity.ok(portfolios);
-        } catch (ResourceNotFoundException e) {
+        } catch (FeignException.NotFound e) {
             throw new ResourceNotFoundException("El usuario con id: " + idUser + " no fue encontrado");
         } catch (Exception e) {
             System.out.println("Ha ocurrido un error: " + e.getMessage());
-            return ResponseEntity.internalServerError().body("Ha ocurrido un error");
+            return ResponseEntity.internalServerError().body("Ha ocurrido un error en el servidor");
         }
     }
 
