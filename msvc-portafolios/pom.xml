@@ -7,11 +7,11 @@
 		<artifactId>assetmaker</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>com.assetmaker.msvc.usuarios</groupId>
-	<artifactId>msvc-usuarios</artifactId>
+	<groupId>com.assetmaker.msvc.portafolios</groupId>
+	<artifactId>msvc-portafolios</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>msvc-usuarios</name>
-	<description>Microservicio usuarios</description>
+	<name>msvc-portafolios</name>
+	<description>Microservicio portafolios</description>
 	<url/>
 	<licenses>
 		<license/>
