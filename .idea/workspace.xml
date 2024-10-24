@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="config">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +192,7 @@
       <workItem from="1728948990009" duration="1229000" />
       <workItem from="1729035993220" duration="2733000" />
       <workItem from="1729368896345" duration="1326000" />
-      <workItem from="1729742822951" duration="1250000" />
+      <workItem from="1729742822951" duration="1562000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />
