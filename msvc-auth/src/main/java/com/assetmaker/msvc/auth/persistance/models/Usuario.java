@@ -41,6 +41,30 @@ public class Usuario {
         return first_name;
     }
 
+    public void setFirst_name(String first_name) {
+        this.first_name = first_name;
+    }
+
+    public String getLast_names() {
+        return last_names;
+    }
+
+    public void setLast_names(String last_names) {
+        this.last_names = last_names;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
     @Override
     public String toString() {
         return "Usuario{" +

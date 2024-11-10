@@ -30,23 +30,23 @@ public class AuthService {
 
     public UserDetails authenticate(String email, String password) throws UsernameNotFoundException {
         try {
+            System.out.println("Hola");
             Usuario usuario = usuarioClientRest.getUserByEmail(email);
-            System.out.println("Usuario");
             System.out.println("Usuario: " + usuario);
-            System.out.println("Usuario2");
-            String urlEmail = "http://localhost:8080/users/user/" + email;
-            User userByEmail = restTemplate.getForObject(urlEmail, User.class);
+            //String urlEmail = "http://localhost:8080/users/email/" + email;
+            //User userByEmail = restTemplate.getForObject(urlEmail, User.class);
 
-            if (userByEmail != null) {
-                String url = "http://localhost:8080/users/validate/" + userByEmail.getEmail() + "/" + password;
-                User validatedUser = restTemplate.getForObject(url, User.class);
-                if (validatedUser != null) {
+            if (usuario != null) {
+                Usuario userByEmail = usuarioClientRest.getUserByEmailAndPassword(email, password);
+//                String url = "http://localhost:8080/users/validate/" + userByEmail.getEmail() + "/" + password;
+//                User validatedUser = restTemplate.getForObject(url, User.class);
+                if (userByEmail != null) {
                     System.out.println("EXISTES Y TE AUTENTIFICASTE");
                     List<String> roles = new ArrayList<>();
                     roles.add("USER");
                     return org.springframework.security.core.userdetails.User.builder()
-                            .username(validatedUser.getEmail())
-                            .password(validatedUser.getPassword())
+                            .username(userByEmail.getEmail())
+                            .password(userByEmail.getPassword())
                             .roles(roles.toArray(new String[0]))
                             .build();
                 } else {

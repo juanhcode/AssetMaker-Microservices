@@ -7,11 +7,11 @@ spring:
       mvc:
         routes:
           - id: user-service
-            uri: http://localhost:9001
+            uri: http://msvc-usuarios:9001
             predicates:
               - Path=/users/**
           - id: auth-service
-            uri: http://localhost:9000
+            uri: http://msvc-auth:9000
             predicates:
               - Path=/rest/auth/**
           - id: asset-service
