@@ -1,0 +1,12 @@
+com/assetmaker/msvc/portafolios/services/PortfolioServiceImpl.class
+com/assetmaker/msvc/portafolios/persistance/repositories/PortfolioRepository.class
+com/assetmaker/msvc/portafolios/persistance/entities/User$RiskProfile.class
+com/assetmaker/msvc/portafolios/MsvcPortafoliosApplication.class
+com/assetmaker/msvc/portafolios/clients/UserClientRest.class
+com/assetmaker/msvc/portafolios/persistance/entities/User.class
+com/assetmaker/msvc/portafolios/services/PortfolioService.class
+com/assetmaker/msvc/portafolios/exceptions/BadRequestException.class
+com/assetmaker/msvc/portafolios/controllers/PortfolioController.class
+com/assetmaker/msvc/portafolios/persistance/entities/Portfolio.class
+com/assetmaker/msvc/portafolios/exceptions/ResourceNotFoundException.class
+com/assetmaker/msvc/portafolios/controllers/RestResponseEntityExceptionHandler.class
