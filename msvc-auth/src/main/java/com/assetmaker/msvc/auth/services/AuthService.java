@@ -1,7 +1,10 @@
 package com.assetmaker.msvc.auth.services;
 
+import com.assetmaker.msvc.auth.clients.UsuarioClientRest;
 import com.assetmaker.msvc.auth.persistance.models.User;
+import com.assetmaker.msvc.auth.persistance.models.Usuario;
 import com.assetmaker.msvc.auth.persistance.repositories.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
@@ -13,6 +16,10 @@ import java.util.List;
 @Service
 public class AuthService {
 
+    @Autowired
+    private UsuarioClientRest usuarioClientRest;
+
+
     private final UserRepository userRepository;
     private RestTemplate restTemplate;
 
@@ -23,19 +30,23 @@ public class AuthService {
 
     public UserDetails authenticate(String email, String password) throws UsernameNotFoundException {
         try {
-            String urlEmail = "http://localhost:8080/users/user/" + email;
-            User userByEmail = restTemplate.getForObject(urlEmail, User.class);
+            System.out.println("Hola");
+            Usuario usuario = usuarioClientRest.getUserByEmail(email);
+            System.out.println("Usuario: " + usuario);
+            //String urlEmail = "http://localhost:8080/users/email/" + email;
+            //User userByEmail = restTemplate.getForObject(urlEmail, User.class);
 
-            if (userByEmail != null) {
-                String url = "http://localhost:8080/users/validate/" + userByEmail.getEmail() + "/" + password;
-                User validatedUser = restTemplate.getForObject(url, User.class);
-                if (validatedUser != null) {
+            if (usuario != null) {
+                Usuario userByEmail = usuarioClientRest.getUserByEmailAndPassword(email, password);
+//                String url = "http://localhost:8080/users/validate/" + userByEmail.getEmail() + "/" + password;
+//                User validatedUser = restTemplate.getForObject(url, User.class);
+                if (userByEmail != null) {
+                    System.out.println("EXISTES Y TE AUTENTIFICASTE");
                     List<String> roles = new ArrayList<>();
                     roles.add("USER");
-
                     return org.springframework.security.core.userdetails.User.builder()
-                            .username(validatedUser.getEmail())
-                            .password(validatedUser.getPassword())
+                            .username(userByEmail.getEmail())
+                            .password(userByEmail.getPassword())
                             .roles(roles.toArray(new String[0]))
                             .build();
                 } else {

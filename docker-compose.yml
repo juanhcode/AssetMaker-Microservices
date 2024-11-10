@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  msvc-usuarios:
+    image: juanhoyos/assetmaker:users-1.0.0
+    container_name: msvc-usuarios
+    ports:
+      - "8080:9001" # El puerto expuesto al host
+    networks:
+      - my-network
+
+  msvc-auth:
+    image: juanhoyos/assetmaker:auth-1.0.0
+    container_name: msvc-auth
+    ports:
+      - "8081:9000" # El puerto expuesto al host
+    environment:
+      - FEIGN_CLIENT_URL=http://msvc-usuarios:9001 # Cambia el puerto al interno del contenedor
+    networks:
+      - my-network
+    depends_on:
+      - msvc-usuarios
+
+  msvc-gateway:
+    image: juanhoyos/assetmaker:gateway-1.0.0
+    container_name: msvc-gateway
+    ports:
+      - "8082:8080" # El puerto expuesto al host
+    networks:
+      - my-network
+    depends_on:
+      - msvc-auth
+      - msvc-usuarios
+
+
+networks:
+  my-network:
+    driver: bridge
