@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.Optional;
 
 
-@FeignClient(name = "msvc-usuarios", url = "http://localhost:8080")
+@FeignClient(name = "msvc-usuarios", url = "${feign.client.url}")
 public interface UserClientRest {
     @GetMapping("/users/{id}")
     Optional<User> getUserById(@PathVariable Integer id);

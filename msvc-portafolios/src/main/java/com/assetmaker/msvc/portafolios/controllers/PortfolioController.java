@@ -39,7 +39,7 @@ public class PortfolioController {
         } catch (FeignException.NotFound e) {
             throw new ResourceNotFoundException("El usuario con id: " + idUser + " no fue encontrado");
         } catch (Exception e) {
-            System.out.println("Ha ocurrido un error: " + e.getMessage());
+            System.out.println("**************************** Ha ocurrido un error: " + e.getMessage());
             return ResponseEntity.internalServerError().body("Ha ocurrido un error en el servidor");
         }
     }
