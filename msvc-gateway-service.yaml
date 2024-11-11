@@ -8,6 +8,7 @@ metadata:
     io.kompose.service: msvc-gateway
   name: msvc-gateway
 spec:
+  type: LoadBalancer    # Aquí se establece el tipo como LoadBalancer
   ports:
     - name: "8082"
       port: 8082
