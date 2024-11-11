@@ -21,17 +21,28 @@ services:
     depends_on:
       - msvc-usuarios
 
-  msvc-gateway:
-    image: juanhoyos/assetmaker:gateway-1.0.0
-    container_name: msvc-gateway
+  msvc-portafolios:
+    image: juanhoyos/assetmaker:portafolios-1.0.3
+    container_name: msvc-portafolios
     ports:
-      - "8082:8080" # El puerto expuesto al host
+        - "8083:9002" # El puerto expuesto al host
+    environment:
+        - FEIGN_CLIENT_URL=http://msvc-usuarios:9001 # Cambia el puerto al interno del contenedor
     networks:
       - my-network
     depends_on:
-      - msvc-auth
-      - msvc-usuarios
+        - msvc-usuarios
 
+#  msvc-gateway:
+#    image: juanhoyos/assetmaker:gateway-1.0.0
+#    container_name: msvc-gateway
+#    ports:
+#      - "8082:8080" # El puerto expuesto al host
+#    networks:
+#      - my-network
+#    depends_on:
+#      - msvc-auth
+#      - msvc-usuarios
 
 networks:
   my-network:
