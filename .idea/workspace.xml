@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="config">
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-portafolios-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,8 @@
       <list>
         <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Kubernetes Deployment" />
+        <option value="Kubernetes Service" />
       </list>
     </option>
   </component>
@@ -54,40 +59,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.MsvcAuthApplication | #1.executor": "Run",
-    "HTTP Request.MsvcAuthApplication | #2.executor": "Run",
-    "JUnit.AuthServiceTest.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "Spring Boot.MsvcActivosApplication.executor": "Run",
-    "Spring Boot.MsvcAuthApplication (1).executor": "Run",
-    "Spring Boot.MsvcAuthApplication.executor": "Run",
-    "Spring Boot.MsvcEurekaApplication.executor": "Run",
-    "Spring Boot.MsvcGatewayApplication.executor": "Run",
-    "Spring Boot.MsvcPortafoliosApplication.executor": "Run",
-    "Spring Boot.MsvcUsuariosApplication.executor": "Run",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "Rebasing dev-hoyos",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/juanhoyos/proyectos/assetmaker/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.MsvcAuthApplication | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.MsvcAuthApplication | #2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MsvcActivosApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcAuthApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcAuthApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcEurekaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcPortafoliosApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcUsuariosApplication.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev-hoyos&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/juanhoyos/proyectos/assetmaker/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -221,6 +226,8 @@
       <workItem from="1730582082887" duration="14901000" />
       <workItem from="1730921665039" duration="6997000" />
       <workItem from="1731076697653" duration="1380000" />
+      <workItem from="1731604651668" duration="675000" />
+      <workItem from="1731626929014" duration="4144000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />
