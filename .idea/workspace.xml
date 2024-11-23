@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="config">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-auth/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-portafolios-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-activos/src/test/java/com/assetmaker/msvc/activos/services/AssetServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-activos/src/test/java/com/assetmaker/msvc/activos/services/AssetServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/clients/UsuarioClientRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/clients/UsuarioClientRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/persistance/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/persistance/models/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/services/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +20,8 @@
       <list>
         <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Kubernetes Deployment" />
+        <option value="Kubernetes Service" />
       </list>
     </option>
   </component>
@@ -90,7 +85,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/juanhoyos/proyectos/assetmaker/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
@@ -231,6 +226,8 @@
       <workItem from="1730582082887" duration="14901000" />
       <workItem from="1730921665039" duration="6997000" />
       <workItem from="1731076697653" duration="1380000" />
+      <workItem from="1731604651668" duration="675000" />
+      <workItem from="1731626929014" duration="4144000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />
