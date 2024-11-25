@@ -27,18 +27,21 @@ public class PortfolioController {
     private PortfolioService portfolioService;
 
     @Autowired
-    @Lazy
     private UserClientRest userClientRest;
 
     @GetMapping("/users/{idUser}")
     public ResponseEntity<?> getPortfoliosByUserById(@PathVariable Integer idUser) {
+        System.out.println("Estoy entrando al metodo de comunciacion");
         try {
+            System.out.println("**************************** idUser: " + idUser);
             Optional<User> userOptional = userClientRest.getUserById(idUser);
             List<Portfolio> portfolios = portfolioService.getPortfoliosByUserId(userOptional.get().getId());
             return ResponseEntity.ok(portfolios);
         } catch (FeignException.NotFound e) {
+            System.out.println("Error al obtener usuario: " + e.getMessage());
             throw new ResourceNotFoundException("El usuario con id: " + idUser + " no fue encontrado");
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             System.out.println("**************************** Ha ocurrido un error: " + e.getMessage());
             return ResponseEntity.internalServerError().body("Ha ocurrido un error en el servidor");
         }

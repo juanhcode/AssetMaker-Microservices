@@ -7,19 +7,15 @@ spring:
       mvc:
         routes:
           - id: user-service
-            uri: http://msvc-usuarios:8080
+            uri: http://msvc-usuarios:8080 # Cambiado a nombre del Service y puerto definido en Kubernetes
             predicates:
               - Path=/users/**
           - id: auth-service
-            uri: http://msvc-auth:8081
+            uri: http://msvc-auth:8081 # Cambiado a nombre del Service y puerto definido en Kubernetes
             predicates:
               - Path=/rest/auth/**
-          #          - id: asset-service
-          #            uri: http://localhost:9003
-          #            predicates:
-          #              - Path=/assets/**
           - id: portfolio-service
-            uri: http://msvc-portafolios:8083
+            uri: http://msvc-portafolios:8083 # Cambiado a nombre del Service y puerto definido en Kubernetes
             predicates:
               - Path=/portfolios/**
 logging:

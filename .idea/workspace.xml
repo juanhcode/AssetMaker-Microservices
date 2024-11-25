@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="config" />
+    <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/src/main/java/com/assetmaker/msvc/portafolios/controllers/PortfolioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios/src/main/java/com/assetmaker/msvc/portafolios/controllers/PortfolioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/MsvcPortafoliosApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/clients/UserClientRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/controllers/PortfolioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/controllers/RestResponseEntityExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/exceptions/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/exceptions/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/persistance/entities/Portfolio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/persistance/entities/User$RiskProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/persistance/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/persistance/repositories/PortfolioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/services/PortfolioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/services/PortfolioServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/msvc-portafolios-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/msvc-portafolios-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,6 +259,12 @@
       <workItem from="1731604651668" duration="675000" />
       <workItem from="1731626929014" duration="6455000" />
       <workItem from="1731870285865" duration="7156000" />
+      <workItem from="1732076430471" duration="8270000" />
+      <workItem from="1732130774240" duration="1837000" />
+      <workItem from="1732334977454" duration="1471000" />
+      <workItem from="1732398641573" duration="1798000" />
+      <workItem from="1732464067692" duration="665000" />
+      <workItem from="1732482281226" duration="9188000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />
@@ -252,7 +293,8 @@
     <MESSAGE value="config pom" />
     <MESSAGE value="add comunication" />
     <MESSAGE value="config" />
-    <option name="LAST_COMMIT_MESSAGE" value="config" />
+    <MESSAGE value="yml k8s" />
+    <option name="LAST_COMMIT_MESSAGE" value="yml k8s" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

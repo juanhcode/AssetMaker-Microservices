@@ -22,7 +22,7 @@ services:
       - msvc-usuarios
 
   msvc-portafolios:
-    image: juanhoyos/assetmaker:portafolios-1.0.3
+    image: juanhoyos/assetmaker:portafolios-1.0.0
     container_name: msvc-portafolios
     ports:
       - "8083:9002" # El puerto expuesto al host
@@ -33,16 +33,17 @@ services:
     depends_on:
       - msvc-usuarios
 
-  #  msvc-gateway:
-  #    image: juanhoyos/assetmaker:gateway-1.0.0
-  #    container_name: msvc-gateway
-  #    ports:
-  #      - "8082:8080" # El puerto expuesto al host
-  #    networks:
-  #      - my-network
-  #    depends_on:
-  #      - msvc-auth
-  #      - msvc-usuarios
+  msvc-gateway:
+    image: juanhoyos/assetmaker:gateway-1.0.0
+    container_name: msvc-gateway
+    ports:
+      - "8082:8080" # El puerto expuesto al host
+    networks:
+      - my-network
+    depends_on:
+      - msvc-auth
+      - msvc-usuarios
+      - msvc-portafolios
 
 networks:
   my-network:
