@@ -31,11 +31,13 @@ public class PortfolioServiceImpl implements PortfolioService {
     }
 
     @Override
+    @Transactional
     public void saveOrUpdatePortfolio(Portfolio portfolio) {
         portfolioRepository.save(portfolio);
     }
 
     @Override
+    @Transactional
     public void deletePortfolioById(Integer id) {
         portfolioRepository.deleteById(id);
     }
