@@ -24,7 +24,7 @@ spec:
         - env:
             - name: FEIGN_CLIENT_URL
               value: http://msvc-usuarios:8080
-          image: juanhoyos/assetmaker:auth-1.0.0
+          image: gcr.io/infra-odyssey-437506-a3/assetmaker:auth-amd-1.0.0
           name: msvc-auth
           ports:
             - containerPort: 9000

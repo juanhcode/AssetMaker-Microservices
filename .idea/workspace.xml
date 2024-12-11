@@ -5,40 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-auth-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-gateway/src/main/java/com/assetmaker/msvc/gateway/CorsGlobalConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway/src/main/java/com/assetmaker/msvc/gateway/CorsGlobalConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/src/main/java/com/assetmaker/msvc/portafolios/controllers/PortfolioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios/src/main/java/com/assetmaker/msvc/portafolios/controllers/PortfolioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/MsvcPortafoliosApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/clients/UserClientRest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/controllers/PortfolioController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/controllers/RestResponseEntityExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/exceptions/BadRequestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/exceptions/ResourceNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/persistance/entities/Portfolio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/persistance/entities/User$RiskProfile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/persistance/entities/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/persistance/repositories/PortfolioRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/services/PortfolioService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/classes/com/assetmaker/msvc/portafolios/services/PortfolioServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/msvc-portafolios-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios/target/msvc-portafolios-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-usuarios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +37,12 @@
     &quot;assignee&quot;: &quot;juanhcode&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="b8fadf89-db26-46f1-a58f-4f96a1f9b4c9" />
-        <option name="url" value="https://github.com/juanhcode/AssetMaker-Microservices.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/juanhcode/AssetMaker-Microservices.git",
+    "accountId": "b8fadf89-db26-46f1-a58f-4f96a1f9b4c9"
+  }
+}]]></component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
@@ -89,40 +60,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.MsvcAuthApplication | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.MsvcAuthApplication | #2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AuthServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.MsvcActivosApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsvcAuthApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsvcAuthApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsvcEurekaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsvcGatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsvcPortafoliosApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsvcUsuariosApplication.executor&quot;: &quot;Run&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev-hoyos&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/juanhoyos/proyectos/assetmaker/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.MsvcAuthApplication | #1.executor": "Run",
+    "HTTP Request.MsvcAuthApplication | #2.executor": "Run",
+    "JUnit.AuthServiceTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.MsvcActivosApplication.executor": "Run",
+    "Spring Boot.MsvcAuthApplication (1).executor": "Run",
+    "Spring Boot.MsvcAuthApplication.executor": "Run",
+    "Spring Boot.MsvcEurekaApplication.executor": "Run",
+    "Spring Boot.MsvcGatewayApplication.executor": "Run",
+    "Spring Boot.MsvcPortafoliosApplication.executor": "Run",
+    "Spring Boot.MsvcUsuariosApplication.executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "dev-hoyos",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/juanhoyos/proyectos/assetmaker/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -138,7 +110,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.AuthServiceTest">
-    <configuration name="MsvcAuthApplication | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/MsvcAuthApplication.http" index="2" requestIdentifier="#2" runType="Run single request">
+    <configuration name="MsvcAuthApplication | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/MsvcAuthApplication.http" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="AuthServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -221,7 +193,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -264,7 +237,9 @@
       <workItem from="1732334977454" duration="1471000" />
       <workItem from="1732398641573" duration="1798000" />
       <workItem from="1732464067692" duration="665000" />
-      <workItem from="1732482281226" duration="9188000" />
+      <workItem from="1732482281226" duration="15243000" />
+      <workItem from="1733001485099" duration="7191000" />
+      <workItem from="1733954636662" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />

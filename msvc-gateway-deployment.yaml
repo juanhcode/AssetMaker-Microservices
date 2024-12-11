@@ -21,7 +21,7 @@ spec:
         io.kompose.service: msvc-gateway
     spec:
       containers:
-        - image: juanhoyos/assetmaker:gateway-1.0.1
+        - image: gcr.io/infra-odyssey-437506-a3/assetmaker/gateway-amd-1.0.2
           name: msvc-gateway
           ports:
             - containerPort: 8080
