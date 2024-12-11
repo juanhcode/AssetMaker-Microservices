@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-gateway/src/main/java/com/assetmaker/msvc/gateway/CorsGlobalConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway/src/main/java/com/assetmaker/msvc/gateway/CorsGlobalConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +31,12 @@
     &quot;assignee&quot;: &quot;juanhcode&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/juanhcode/AssetMaker-Microservices.git",
-    "accountId": "b8fadf89-db26-46f1-a58f-4f96a1f9b4c9"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/juanhcode/AssetMaker-Microservices.git&quot;,
+    &quot;accountId&quot;: &quot;b8fadf89-db26-46f1-a58f-4f96a1f9b4c9&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
@@ -60,41 +54,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.MsvcAuthApplication | #1.executor": "Run",
-    "HTTP Request.MsvcAuthApplication | #2.executor": "Run",
-    "JUnit.AuthServiceTest.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "Spring Boot.MsvcActivosApplication.executor": "Run",
-    "Spring Boot.MsvcAuthApplication (1).executor": "Run",
-    "Spring Boot.MsvcAuthApplication.executor": "Run",
-    "Spring Boot.MsvcEurekaApplication.executor": "Run",
-    "Spring Boot.MsvcGatewayApplication.executor": "Run",
-    "Spring Boot.MsvcPortafoliosApplication.executor": "Run",
-    "Spring Boot.MsvcUsuariosApplication.executor": "Run",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "dev-hoyos",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/juanhoyos/proyectos/assetmaker/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.MsvcAuthApplication | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.MsvcAuthApplication | #2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MsvcActivosApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcAuthApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcAuthApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcEurekaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcPortafoliosApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsvcUsuariosApplication.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev-hoyos&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/juanhoyos/proyectos/assetmaker/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
