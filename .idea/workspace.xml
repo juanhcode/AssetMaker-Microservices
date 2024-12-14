@@ -5,6 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s">
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/MsvcActivosPortafoliosApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/clients/AssetClientRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/clients/PortfolioClientRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/controllers/AssestsPortfoliosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/controllers/RestResponseEntityExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/exceptions/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/persistance/entities/Asset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/persistance/entities/Contains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/persistance/entities/Portfolio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/persistance/repository/AssetsPortfoliosRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/services/AssetsPortfoliosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/java/com/assetmaker/msvc/activosportafolios/services/AssetsPortfoliosServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios/src/test/java/com/assetmaker/msvc/activosportafolios/ActivosPortafoliosApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -255,7 +277,7 @@
       <workItem from="1734058203317" duration="11858000" />
       <workItem from="1734098173171" duration="101000" />
       <workItem from="1734098474042" duration="2000" />
-      <workItem from="1734148158625" duration="1610000" />
+      <workItem from="1734148158625" duration="1948000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />

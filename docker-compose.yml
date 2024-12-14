@@ -47,8 +47,8 @@ services:
     image: juanhoyos/assetmaker:activosportafolios-1.0.0
     container_name: msvc-activosportafolios
     environment:
-        - FEIGN_CLIENT_URL=http://msvc-portafolios:9002 # Cambia el puerto al interno del contenedor
-        - FEIGN_CLIENT_URL_ASSETS=http://msvc-activos:9003 # Cambia el puerto al interno del contenedor
+      - FEIGN_CLIENT_URL=http://msvc-portafolios:9002 # Cambia el puerto al interno del contenedor
+      - FEIGN_CLIENT_URL_ASSETS=http://msvc-activos:9003 # Cambia el puerto al interno del contenedor
     ports:
       - "8085:9004" # El puerto expuesto al host
     networks:
