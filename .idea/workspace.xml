@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-activos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-activos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-activos/src/main/java/com/assetmaker/msvc/activos/MsvcActivosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-activos/src/main/java/com/assetmaker/msvc/activos/MsvcActivosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-activos/src/main/java/com/assetmaker/msvc/activos/persistance/repositories/AssetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-activos/src/main/java/com/assetmaker/msvc/activos/persistance/repositories/AssetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-activos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-activos/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +139,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MsvcActivosPortafoliosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="msvc-activosportafolios" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.assetmaker.msvc.activosportafolios.MsvcActivosPortafoliosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MsvcAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="msvc-auth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.assetmaker.msvc.auth.MsvcAuthApplication" />
@@ -171,9 +188,10 @@
       <item itemvalue="HTTP Request.MsvcAuthApplication | #2" />
       <item itemvalue="JUnit.AuthServiceTest" />
       <item itemvalue="Spring Boot.MsvcActivosApplication" />
+      <item itemvalue="Spring Boot.MsvcActivosPortafoliosApplication" />
+      <item itemvalue="Spring Boot.MsvcGatewayApplication" />
       <item itemvalue="Spring Boot.MsvcPortafoliosApplication" />
       <item itemvalue="Spring Boot.MsvcUsuariosApplication" />
-      <item itemvalue="Spring Boot.MsvcGatewayApplication" />
       <item itemvalue="Spring Boot.MsvcAuthApplication" />
     </list>
     <recent_temporary>
@@ -234,6 +252,10 @@
       <workItem from="1732482281226" duration="15243000" />
       <workItem from="1733001485099" duration="7191000" />
       <workItem from="1733954636662" duration="938000" />
+      <workItem from="1734058203317" duration="11858000" />
+      <workItem from="1734098173171" duration="101000" />
+      <workItem from="1734098474042" duration="2000" />
+      <workItem from="1734148158625" duration="1610000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />
@@ -261,9 +283,9 @@
     <MESSAGE value="Servicio crear usuario completado" />
     <MESSAGE value="config pom" />
     <MESSAGE value="add comunication" />
-    <MESSAGE value="config" />
     <MESSAGE value="yml k8s" />
-    <option name="LAST_COMMIT_MESSAGE" value="yml k8s" />
+    <MESSAGE value="config" />
+    <option name="LAST_COMMIT_MESSAGE" value="config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

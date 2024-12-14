@@ -19,6 +19,7 @@
         <module>msvc-gateway</module>
         <module>msvc-activos</module>
         <module>msvc-portafolios</module>
+        <module>msvc-activosportafolios</module>
     </modules>
 
     <properties>
