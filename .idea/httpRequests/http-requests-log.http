@@ -1,0 +1,16 @@
+GET http://127.0.0.1:9000/actuator/health
+Accept: application/vnd.spring-boot.actuator.v3+json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://127.0.0.1:9000/actuator
+Accept: application/vnd.spring-boot.actuator.v3+json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+

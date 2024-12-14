@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  msvc-usuarios:
+    image: juanhoyos/assetmaker:users-1.0.0
+    container_name: msvc-usuarios
+    ports:
+      - "8080:9001" # El puerto expuesto al host
+    networks:
+      - my-network
+
+  msvc-auth:
+    image: juanhoyos/assetmaker:auth-1.0.0
+    container_name: msvc-auth
+    ports:
+      - "8081:9000" # El puerto expuesto al host
+    environment:
+      - FEIGN_CLIENT_URL=http://msvc-usuarios:9001 # Cambia el puerto al interno del contenedor
+    networks:
+      - my-network
+    depends_on:
+      - msvc-usuarios
+
+  msvc-portafolios:
+    image: juanhoyos/assetmaker:portafolios-1.0.0
+    container_name: msvc-portafolios
+    ports:
+      - "8083:9002" # El puerto expuesto al host
+    environment:
+      - FEIGN_CLIENT_URL=http://msvc-usuarios:9001 # Cambia el puerto al interno del contenedor
+    networks:
+      - my-network
+    depends_on:
+      - msvc-usuarios
+
+  msvc-activos:
+    image: juanhoyos/assetmaker:activos-1.0.0
+    container_name: msvc-activos
+    ports:
+      - "8084:9003" # El puerto expuesto al host
+    networks:
+      - my-network
+    depends_on:
+      - msvc-usuarios
+
+  msvc-activosportafolios:
+    image: juanhoyos/assetmaker:activosportafolios-1.0.0
+    container_name: msvc-activosportafolios
+    environment:
+      - FEIGN_CLIENT_URL=http://msvc-portafolios:9002 # Cambia el puerto al interno del contenedor
+      - FEIGN_CLIENT_URL_ASSETS=http://msvc-activos:9003 # Cambia el puerto al interno del contenedor
+    ports:
+      - "8085:9004" # El puerto expuesto al host
+    networks:
+      - my-network
+    depends_on:
+      - msvc-portafolios
+      - msvc-activos
+
+  msvc-gateway:
+    image: juanhoyos/assetmaker:gateway-1.0.0
+    container_name: msvc-gateway
+    ports:
+      - "8082:8080" # El puerto expuesto al host
+    networks:
+      - my-network
+    depends_on:
+      - msvc-auth
+      - msvc-usuarios
+      - msvc-portafolios
+      - msvc-activos
+      - msvc-activosportafolios
+
+networks:
+  my-network:
+    driver: bridge
