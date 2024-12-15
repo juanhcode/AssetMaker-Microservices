@@ -71,6 +71,17 @@ services:
       - msvc-activos
       - msvc-activosportafolios
 
+  frontend:
+    image: juanhoyos/react-frontend:1.0.0 # Usa la imagen ya construida
+    container_name: react-frontend
+    ports:
+      - "3000:3000" # Mapea el puerto al host
+    environment:
+      - REACT_APP_API_URL=http://msvc-gateway:8080 # URL del gateway
+    networks:
+      - my-network
+    depends_on:
+      - msvc-gateway
 networks:
   my-network:
     driver: bridge
