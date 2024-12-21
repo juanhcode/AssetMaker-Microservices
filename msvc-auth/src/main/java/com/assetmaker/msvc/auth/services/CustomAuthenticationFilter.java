@@ -26,7 +26,7 @@ public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFi
             LoginReq loginReq = new ObjectMapper().readValue(request.getInputStream(), LoginReq.class);
 
             // Autenticamos al usuario
-            UserDetails userDetails = authService.authenticate(loginReq.getEmail(), loginReq.getPassword());
+            UserDetails userDetails = (UserDetails) authService.authenticate(loginReq.getEmail(), loginReq.getPassword());
 
             // Creamos el token de autenticación para Spring Security
             return new UsernamePasswordAuthenticationToken(

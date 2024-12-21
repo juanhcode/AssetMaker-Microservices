@@ -10,8 +10,8 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
@@ -26,12 +26,12 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http.csrf().disable()
+        http.csrf().disable() // Si no necesitas formularios, puedes deshabilitar CSRF
                 .authorizeRequests()
-                .requestMatchers("/rest/auth/**").permitAll()
-                .anyRequest().authenticated()
+                .requestMatchers("/rest/auth/**").permitAll() // Rutas públicas
+                .anyRequest().authenticated() // Rutas privadas
                 .and()
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS); // Stateless para JWT
         return http.build();
     }
 
@@ -42,10 +42,12 @@ public class SecurityConfig {
             public Authentication authenticate(Authentication authentication) throws AuthenticationException {
                 String email = authentication.getName();
                 String password = authentication.getCredentials().toString();
+
+                var userDetails = authService.authenticate(email, password);
+
                 return new UsernamePasswordAuthenticationToken(
-                        email,
-                        password,
-                        authService.authenticate(email, password).getAuthorities()
+                        userDetails.getEmail(),
+                        password
                 );
             }
         };
@@ -53,6 +55,6 @@ public class SecurityConfig {
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        return NoOpPasswordEncoder.getInstance(); // NoOpPasswordEncoder es solo para pruebas
+        return new BCryptPasswordEncoder(); // Encriptación de contraseñas
     }
 }

@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s">
-      <change afterPath="$PROJECT_DIR$/msvc-activos-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-activos-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-activosportafolios-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-activosportafolios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-activosportafolios-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/helpers/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/helpers/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/persistance/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/persistance/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/persistance/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/persistance/models/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/services/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/services/CustomAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/services/CustomAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +100,9 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -258,7 +265,9 @@
       <workItem from="1734058203317" duration="11858000" />
       <workItem from="1734098173171" duration="101000" />
       <workItem from="1734098474042" duration="2000" />
-      <workItem from="1734148158625" duration="24463000" />
+      <workItem from="1734148158625" duration="31523000" />
+      <workItem from="1734496881298" duration="12417000" />
+      <workItem from="1734531537313" duration="6586000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />
@@ -284,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734152432577</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="yml k8s">
+      <option name="closed" value="true" />
+      <created>1734226833073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734226833073</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

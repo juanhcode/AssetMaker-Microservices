@@ -65,6 +65,19 @@ public class Usuario {
         return password;
     }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public RiskProfile getRisk_profile() {
+        return risk_profile;
+    }
+
+    public void setRisk_profile(RiskProfile risk_profile) {
+        this.risk_profile = risk_profile;
+    }
+
+
     @Override
     public String toString() {
         return "Usuario{" +

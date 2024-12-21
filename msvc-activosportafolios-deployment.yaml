@@ -23,9 +23,9 @@ spec:
       containers:
         - env:
             - name: FEIGN_CLIENT_URL
-              value: http://msvc-portafolios:9002
+              value: http://msvc-portafolios:8083
             - name: FEIGN_CLIENT_URL_ASSETS
-              value: http://msvc-activos:9003
+              value: http://msvc-activos:8084
           image: gcr.io/infra-odyssey-437506-a3/assetmaker/juanhoyos/assetmaker:activosportafolios-1.0.0
           name: msvc-activosportafolios
           ports:
