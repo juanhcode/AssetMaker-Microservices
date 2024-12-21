@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   msvc-usuarios:
-    image: juanhoyos/assetmaker:users-1.0.0
+    image: juanhoyos/assetmaker:users-1.0.5
     container_name: msvc-usuarios
     ports:
       - "8080:9001" # El puerto expuesto al host
@@ -10,7 +10,7 @@ services:
       - my-network
 
   msvc-auth:
-    image: juanhoyos/assetmaker:auth-1.0.0
+    image: juanhoyos/assetmaker:auth-1.0.5
     container_name: msvc-auth
     ports:
       - "8081:9000" # El puerto expuesto al host
@@ -71,6 +71,15 @@ services:
       - msvc-activos
       - msvc-activosportafolios
 
+  frontend:
+    image: react-frontend
+    container_name: react-frontend
+    ports:
+      - "4200:4200"
+    networks:
+      - my-network
+    depends_on:
+      - msvc-gateway
 networks:
   my-network:
     driver: bridge
