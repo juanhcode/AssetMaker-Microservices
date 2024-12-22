@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-activosportafolios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-activosportafolios-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/helpers/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/helpers/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/persistance/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/persistance/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/persistance/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/persistance/models/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/services/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/services/CustomAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/com/assetmaker/msvc/auth/services/CustomAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-portafolios-deployment.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,10 +186,10 @@
       <item itemvalue="JUnit.AuthServiceTest" />
       <item itemvalue="Spring Boot.MsvcActivosApplication" />
       <item itemvalue="Spring Boot.MsvcActivosPortafoliosApplication" />
+      <item itemvalue="Spring Boot.MsvcAuthApplication" />
       <item itemvalue="Spring Boot.MsvcGatewayApplication" />
       <item itemvalue="Spring Boot.MsvcPortafoliosApplication" />
       <item itemvalue="Spring Boot.MsvcUsuariosApplication" />
-      <item itemvalue="Spring Boot.MsvcAuthApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -268,6 +255,7 @@
       <workItem from="1734148158625" duration="31523000" />
       <workItem from="1734496881298" duration="12417000" />
       <workItem from="1734531537313" duration="6586000" />
+      <workItem from="1734766994146" duration="10089000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />

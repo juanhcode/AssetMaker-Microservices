@@ -72,7 +72,7 @@ services:
       - msvc-activosportafolios
 
   frontend:
-    image: react-frontend
+    image: juanhoyos/assetmaker:react-frontend
     container_name: react-frontend
     ports:
       - "4200:4200"
