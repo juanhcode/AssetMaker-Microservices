@@ -11,6 +11,6 @@
 
 [Ver video](https://youtu.be/a8IqbA9cLQA)
 
-##Repositorio del frontend
+## Repositorio del frontend
 
 [Repositorio frontend](https://github.com/juanhcode/AssetMaker)
