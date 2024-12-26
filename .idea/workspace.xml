@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s">
-      <change afterPath="$PROJECT_DIR$/frontend-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-activosportafolios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-activosportafolios-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +262,8 @@
       <workItem from="1734977737576" duration="2663000" />
       <workItem from="1735009013590" duration="25097000" />
       <workItem from="1735217057741" duration="5842000" />
-      <workItem from="1735228620486" duration="820000" />
+      <workItem from="1735228620486" duration="2373000" />
+      <workItem from="1735240161898" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />
