@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s" />
+    <list default="true" id="309e85cf-e17d-424a-93c8-bc79508a2b39" name="Changes" comment="yml k8s">
+      <change afterPath="$PROJECT_DIR$/frontend-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-activosportafolios-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-activosportafolios-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway-deployment.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,10 +192,10 @@
       <item itemvalue="JUnit.AuthServiceTest" />
       <item itemvalue="Spring Boot.MsvcActivosApplication" />
       <item itemvalue="Spring Boot.MsvcActivosPortafoliosApplication" />
-      <item itemvalue="Spring Boot.MsvcAuthApplication" />
       <item itemvalue="Spring Boot.MsvcGatewayApplication" />
       <item itemvalue="Spring Boot.MsvcPortafoliosApplication" />
       <item itemvalue="Spring Boot.MsvcUsuariosApplication" />
+      <item itemvalue="Spring Boot.MsvcAuthApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -256,6 +262,11 @@
       <workItem from="1734496881298" duration="12417000" />
       <workItem from="1734531537313" duration="6586000" />
       <workItem from="1734766994146" duration="10089000" />
+      <workItem from="1734907143090" duration="1127000" />
+      <workItem from="1734977737576" duration="2663000" />
+      <workItem from="1735009013590" duration="25097000" />
+      <workItem from="1735217057741" duration="5842000" />
+      <workItem from="1735228620486" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="add comunication">
       <option name="closed" value="true" />
@@ -289,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734226833073</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="yml k8s">
+      <option name="closed" value="true" />
+      <created>1734907406379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734907406379</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

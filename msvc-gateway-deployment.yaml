@@ -8,7 +8,7 @@ metadata:
     io.kompose.service: msvc-gateway
   name: msvc-gateway
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       io.kompose.service: msvc-gateway
